@@ -4,22 +4,34 @@
 
 html, body {
 	margin: 0;
+	width: 134px, 23%;
 }
 
-header, footer {
+header {
+height: 200px;
+background-color: purple;
+
+}
+
+footer {
+height: 200px;
+background-color: purple;
 
 }
 
 .centered {
-
+color: white;
+text-align: center;
 }
 
 header .subtitle {
-
+color: white; 
 }
 
 h1 {
-
+text-transform: uppercase;
+color: white;
+text-align: center;
 }
 
 ul {
@@ -29,6 +41,7 @@ ul {
 
 ul li {
 	width: 50%;
+
 }
 
 main {
@@ -40,15 +53,18 @@ section {
 }
 
 h2 {
-
+color: purple;
+text-align: center;
 }
 
 h3 {
+color: purple;
 
 }
 
 p {
-
+color: purple
+text-align: center;
 }
 
 .details {
@@ -64,5 +80,6 @@ p {
 }
 
 footer h2 {
-
+	text-transform: capitalize;
+color: white;
 }
